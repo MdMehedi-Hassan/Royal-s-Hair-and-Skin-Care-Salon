@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Royal's – Hair & Skin Care Salon</title>
   <meta name="description" content="Royal's – Hair & Skin Care Salon in Chittagong. Expert haircuts, facials, hair treatments, grooming. Open daily 10:00 AM – 9:00 PM. Call +8801841-550501." />
+
+  <!-- Website Icon -->
+  <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="royals.css" />
 </head>
 
-<body class="bg-white text-gray-900 overflow-x-hidden">
+<body class="bg-gray text-gray-900 overflow-x-hidden">
 
   <!-- Navbar -->
   <nav class="fixed inset-x-0 top-0 z-20 bg-white/90 backdrop-blur shadow">
@@ -21,7 +26,7 @@
           <img src="images/logo.jpg" alt="Royal's Logo" class="h-11 w-auto rounded-full shadow" />
           <!-- Text -->
           <span class="text-xl heading-font font-semibold text-yellow-600">Royal's</span>
-          <span class="hidden sm:inline text-sm text-gray-600">Hair & Skin Care Salon</span>
+          <span class="hidden sm:inline text-sm text-gray-600">- Hair & Skin Care Salon</span>
         </a>
       <!-- Desktop -->
         <div class="hidden md:flex items-center gap-8">
@@ -84,9 +89,10 @@
         <ul class="mt-6 space-y-2 text-gray-700 list-disc list-inside">
           <li>Hair Cutting & Styling (Adults & Kids)</li>
           <li>Beard Trimming</li>
-          <li>Manicures & Pedicures</li>
+          <li>Pedicures & Manicures</li>
           <li>Hair & Skin Treatments</li>
           <li>Facial & Massage Therapy</li>
+          <li>Grooming & Make Over Art</li>
         </ul>
       </div>
       <div class="rounded-2xl overflow-hidden shadow-lg">
@@ -97,376 +103,2491 @@
 
   <!-- Founder -->
   <section id="founder" class="py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-13 gap-7 items-start">
-      <div class="md:col-span-1">
-        <h2 class="heading-font text-3xl md:text-4xl font-bold text-center">Founder & Managers</h2>
-        <div class="w-200 h-1 bg-yellow-600 mt-3 mb-3"></div>
-      </div>
-      <div class="md:col-span-1 bg-white rounded-2xl shadow p-6">
-        <div class="flex flex-col sm:flex-row gap-6 items-start">
-          <img src="images/kamal.jpg"
-          alt="Portrait of the founder Md. Kamal Uddin"
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- Title -->
+    <h2 class="heading-font text-3xl md:text-4xl font-bold text-center">
+      Founder & Managers
+    </h2>
+    <div class="w-200 h-1 bg-yellow-600 mt-3 mb-10 mx-auto"></div>
+
+    <!-- Card -->
+    <div class="bg-white rounded-2xl shadow p-6">
+      <div class="flex flex-col md:flex-row gap-6 items-center md:items-start">
+
+        <!-- Image -->
+        <img src="images/kamal.jpg"
+          alt="Founder Md. Kamal Uddin"
           class="w-40 h-40 md:w-48 md:h-48 object-cover rounded-full border-4 border-yellow-500 shadow-xl transition-transform transform hover:scale-105">
 
-          <div>
-            <h3 class="text-2xl font-semibold">Md. Kamal Uddin</h3>
-            <p class="mt-1 text-sm text-gray-500">Founder & General Manager</p>
-            <p class="mt-4 text-gray-700 leading-relaxed text-center">
-              “Royal's was born from a simple promise: skilled hands, honest service, and a royal experience —
-              every guest, every visit. Thank you for trusting us with your look. We’ll keep raising the bar.”
-            </p>
-                <!-- Managers -->
-                <div class="mt-7">
-                  <h4 class="font-semibold text-lg mb-1">Managers</h4>
-                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-7"> 
-                    <!-- Manager 1 -->
-                    <div class="flex items-center gap-4 bg-white p-4 rounded-lg shadow">
-                      <img src="images/manager-1.jpg" alt="Manager 1" class="w-20 h-20 md:w-24 md:h-24 object-cover rounded-full border-2 border-yellow-500 shadow-lg transition-transform transform hover:scale-105">
+        <!-- Content -->
+        <div class="text-center md:text-left">
+          <h3 class="text-2xl font-semibold">Md. Kamal Uddin</h3>
+          <p class="mt-1 text-sm text-gray-500">Founder & General Manager</p>
 
-                      <div>
-                        <h5 class="font-semibold text-gray-800">Manager 1</h5>
-                        <p class="text-gray-600 text-sm">📞 +880123456789</p>
-                      </div>
-                    </div>
-                    <!-- Manager 2 -->
-                    <div class="flex items-center gap-4 bg-white p-4 rounded-lg shadow">
-                      <img src="images/manager-2.jpg" alt="Manager 2" class="w-20 h-20 md:w-24 md:h-24 object-cover rounded-full border-2 border-yellow-500 shadow-lg transition-transform transform hover:scale-105">
-                      <div>
-                        <h5 class="font-semibold text-gray-800">Manager 2</h5>
-                        <p class="text-gray-600 text-sm">📞 +880987654321</p>
-                      </div>
-                    </div>
+          <p class="mt-4 text-gray-700 leading-relaxed">
+            “Royal's was born from a simple promise: skilled hands, honest service,
+            and a royal experience — every guest, every visit. Thank you for trusting
+            us with your look. We’ll keep raising the bar.”
+          </p>
+
+          <!-- Managers -->
+          <div class="mt-6">
+            <h4 class="font-semibold text-lg mb-3">Manager</h4>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+              <!-- Manager Card -->
+              <div class="flex items-center gap-4 bg-gray-50 p-4 rounded-lg shadow-sm">
+                <img src="images/Kevin.jpg"
+                  class="w-20 h-20 md:w-24 md:h-24 object-cover rounded-full border-2 border-yellow-500 shadow-lg transition-transform transform hover:scale-105">
+
+                <div>
+                  <h5 class="font-semibold text-gray-800">Kevin</h5>
+                  <p class="text-sm text-gray-500">Salon Manager</p>
+                </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </div>
-  </section>
 
-<!-- Team -->
+  </div>
+</section>
+
+<!-- Team-1 -->
 <section id="team" class="py-16 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 class="heading-font text-3xl md:text-4xl font-bold text-center">Meet Our Team</h2>
-    <div class="w-200 h-1 bg-yellow-600 mx-auto mt-3 rounded-full"></div>
+    
+    <h2 class="heading-font text-3xl md:text-4xl font-bold text-center">
+      Meet Our Team
+    </h2>
+    <div class="w-100 h-1 bg-yellow-600 mx-auto mt-3 rounded-full"></div>
 
-    <!-- Expert Team -->
+    <!-- Salon Dressers Team -->
     <div class="mt-12">
-      <h3 class="text-xl font-semibold mb-1">Expert Team</h3>
-      <p class="text-gray-600 mb-6">Hair Cutting • Facial • Hair Treatments • Grooming</p>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        <!-- Expert Team Cards -->
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Shimul.jpg" alt="Senior Stylist at work" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Shimul</h4>
-            <p class="text-sm text-gray-500">Senior Hair Stylist</p>
+      <h3 class="text-xl font-semibold mb-1">Salon Dressers Team</h3>
+      <p class="text-gray-600 mb-6">
+        Hair Cutting • Beard Trimming • Facial • Hair Treatments • Grooming
+      </p>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Bidan.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Bidan</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Ronjit.jpg" alt="Facial expert with tools" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Ronjit</h4>
-            <p class="text-sm text-gray-500">Facial & Skin Care</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Ronjit.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Ronjit</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Bidan.jpg" alt="Hair treatment specialist" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Bidan</h4>
-            <p class="text-sm text-gray-500">Hair Treatment Specialist</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Shimul.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Shimul</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Bashu Dev.jpg" alt="Grooming expert" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Bashu Dev</h4>
-            <p class="text-sm text-gray-500">Grooming Expert</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Bashu Dev.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Bashu Dev</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Shudir Babu.jpg" alt="Grooming expert" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Shudir Babu</h4>
-            <p class="text-sm text-gray-500">Grooming Expert</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Shanjoy.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Shanjoy</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Bipul.jpg" alt="Grooming expert" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Bipul</h4>
-            <p class="text-sm text-gray-500">Grooming Expert</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Bipul.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Bipul</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Liton.jpg" alt="Grooming expert" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Liton</h4>
-            <p class="text-sm text-gray-500">Grooming Expert</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Liton.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Liton</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Cutter.jpg" alt="Grooming expert" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Cutter</h4>
-            <p class="text-sm text-gray-500">Grooming Expert</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Shudir Babu.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Shudir Babu</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Rubel.jpg" alt="Grooming expert" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Rubel</h4>
-            <p class="text-sm text-gray-500">Grooming Expert</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Rubel.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Rubel</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Noyon.jpg" alt="Grooming expert" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Noyon</h4>
-            <p class="text-sm text-gray-500">Grooming Expert</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Noyon.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Noyon</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Shanjoy.jpg" alt="Grooming expert" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Shanjoy</h4>
-            <p class="text-sm text-gray-500">Grooming Expert</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Biplob.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Biplob</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Biplob.jpg" alt="Grooming expert" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Biplob</h4>
-            <p class="text-sm text-gray-500">Grooming Expert</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Sumon.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Sumon</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Unknown.jpg" alt="Grooming expert" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Unknown</h4>
-            <p class="text-sm text-gray-500">Grooming Expert</p>
-          </div>
-        </div>
-      </div>
+
+      </div> 
     </div>
+  </div>
+  
+</section>
 
-    <!-- Support Team -->
-    <div class="mt-12">
-      <h3 class="text-xl font-semibold mb-1">Support Team</h3>
-      <p class="text-gray-600 mb-6">Salon Helpers • Cleaners</p>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        <!-- Support Team Cards -->
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Shohag.jpg" alt="Salon Helper" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Nasir Uddin Shohag</h4>
-            <p class="text-sm text-gray-500">Salon Helper</p>
+<!-- Team-2 -->
+<section id="team" class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- Salon Helpers Team -->
+    <div class="mb-1 mt-1">
+      <h3 class="text-xl font-semibold mb-1">Salon Helpers Team</h3>
+      <p class="text-gray-600 mb-6">
+        Predicure • Manicure • Facial • Massage • Grooming
+      </p>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Shohag.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Shohag</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Helper.jpg" alt="Salon helper" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Helper</h4>
-            <p class="text-sm text-gray-500">Salon Helper</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Manik.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Manik</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Manik.jpg" alt="Salon Helper" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Manik</h4>
-            <p class="text-sm text-gray-500">Salon Helper</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Abhinash.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Abhinash</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Samwell.jpg" alt="Salon helper" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Samwell</h4>
-            <p class="text-sm text-gray-500">Salon Helper</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Joy Marak.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Joy Marak</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Joy.jpg" alt="Salon helper" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Joy</h4>
-            <p class="text-sm text-gray-500">Salon Helper</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Shakil.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Shakil</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Shakil.jpg" alt="Salon helper" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Shakil</h4>
-            <p class="text-sm text-gray-500">Salon Helper</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Shanto.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Shanto</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Diptta.jpg" alt="Salon helper & Cleaners" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Diptta</h4>
-            <p class="text-sm text-gray-500">Salon Helper & Cleaners</p>
+
+        <div class="team-card w-full bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <img src="images/Shabbir.jpg" alt="Senior Stylist at work"
+               class="w-full h-50 object-cover rounded-t-xl border-b-4 border-yellow-500">
+          <div class="p-3 text-center">
+            <h4 class="font-semibold text-base">Shabbir</h4>
+            <p class="text-xs text-gray-500">Senior Hair Stylist</p>
           </div>
         </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Shamim.jpg" alt="Salon helper & Cleaners" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Shamim</h4>
-            <p class="text-sm text-gray-500">Salon Helper & Cleaners</p>
-          </div>
-        </div>
-        <div class="team-card bg-white rounded-xl shadow-lg overflow-hidden group transition-transform transform hover:scale-105 hover:shadow-2xl">
-          <img src="images/Shanto.jpg" alt="Salon helper & Cleaners" class="w-full h-60 object-cover rounded-t-xl border-b-4 border-yellow-500">
-          <div class="p-4 text-center">
-            <h4 class="font-semibold text-lg">Shanto</h4>
-            <p class="text-sm text-gray-500">Salon Helper & Cleaners</p>
-          </div>
-        </div>
-      </div>
+
+      </div> 
     </div>
   </div>
 </section>
 
+
 <!-- Services Section -->
-<section id="services" class="py-16 bg-white shadow-lg rounded-xl">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 class="heading-font text-3xl md:text-4xl font-bold text-center">Our Services & Price (BDT)</h2>
-      <div class="w-200 h-1 bg-yellow-600 mx-auto mt-3"></div>
-    <div class="space-y-10 mt-5">
+<section id="services" class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
 
-      <!-- Hair Care -->
-      <div>
-        <h3 class="text-2xl font-semibold mb-4 text-yellow-700">Hair Care & Styling</h3>
-        <div class="overflow-x-auto rounded-lg shadow border border-gray-200">
-          <table class="w-full text-sm">
-            <thead>
-              <tr class="bg-yellow-100 text-gray-800">
-                <th class="border px-4 py-3 text-left">Service</th>
-                <th class="border px-4 py-3 text-left">Price</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-gray-200">
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Hair Cut + Shampoo</td><td class="px-4 py-3">200/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Hair Cut + Shampoo + Conditioner Wash</td><td class="px-4 py-3">250/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Hair Cut + Shampoo + Conditioner (Mousse/Gel)</td><td class="px-4 py-3">300/-</td></tr>
-            </tbody>
-          </table>
+    <!-- Title -->
+    <h2 class="heading-font text-3xl md:text-4xl font-bold text-center">Our Services</h2>
+    <p class="text-center text-gray-500 tracking-widest text-sm">PRICES IN BDT</p>
+    <div class="w-100 h-1 bg-yellow-600 mx-auto mt-3 rounded-full mb-10"></div>
+
+    <!-- 2 Column Layout -->
+    <div class="grid md:grid-cols-2 gap-12">
+
+      <!-- LEFT SIDE -->
+      <div class="space-y-10">
+
+        
+
+        <!-- Hair Care & Styling -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Hair Care & Styling
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Cut + Shampoo
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    250/-
+                  </td>
+                </tr>
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Cut + Shampoo + Conditioner Wash
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    250/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Cut + Shampoo + Conditioner Wash <br>
+                    <span class="text-xs text-gray-500">
+                      (Mousse or Cream or Gel Spray & Shampoo Complementary)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Stylish Hair Cut & Above <br>
+                    <span class="text-xs text-gray-500">
+                      (Catalogue Fashion Cut & Designs)
+                    </span>
+
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Bald Adult
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Bald Infant / Children
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Trimming
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    150/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Cut Kids
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    250/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Shave Face <br>
+                    <span class="text-xs text-gray-500">
+                      (With Face Wash or Gel)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    150/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Beard Trimming Stylish
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    200/- to 300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Eye Brows Treading
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face Treading
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
         </div>
+
+        <!-- Hair Setting -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Hair Setting
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Setting <br>
+                    <span class="text-xs text-gray-500">
+                      (Mousse or Cream or Gel or Spray)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    200/-
+                  </td>
+                </tr>
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Iron
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/- & Above
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Straightening <br>
+                    <span class="text-xs text-gray-500">
+                      (3 Months)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    3,000/- & Above
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Rebounding
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    5,000/- & Above
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Perm<br>
+                    <span class="text-xs text-gray-500">(Half or Full)</span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,000/- & Above
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Hair Treatment -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Hair Treatment
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Ozone Therapy with Pack Every 15 Days <br>
+                    <span class="text-xs text-gray-500">
+                      (Hair Nourishing & Conditioning Treatment with Vitamins)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    700/-
+                  </td>
+                </tr>
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Deep Conditioner Treatment for Damaged Hair
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/- to 800/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Protein Treatment for the Hair
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    700/- to 1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Fruit Pack for Natural Toning of Your Hair
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    600/- to 800/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Problematic Hair Treatment with Ozone<br>
+                    <span class="text-xs text-gray-500">(1st – 6th Sessions)</span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/- to 500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Fall, Dandruff, Regrowth & Dull Hair<br>
+                    <span class="text-xs text-gray-500">
+                      (7th session with pack. Total 25 sessions; every 5th session includes a pack)
+                    </span><br>
+                    First 10 Sessions: Daily
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/- to 800/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Fall, Dandruff, Regrowth & Dull Hair<br>
+                    <span class="text-xs text-gray-500">
+                      (7th session with pack. Total 25 sessions; every 5th session includes a pack)
+                    </span><br>
+                    Next 15 Sessions: On Alternate Days
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/- to 1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Shine<br>
+                    <span class="text-xs text-gray-500">
+                      (Temporary Shine Enhancement Before any Special Event or Party)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/- to 1,200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Treatment for Rebounding Hair
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/- to 1,500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Spa
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/- to 1,200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hot Oil Hair Massage <br>
+                    <span class="text-xs text-gray-500">(with Steam)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/- to 600/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Hair Dye & Others -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Hair Dye & Others
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Loreal Natural Black
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/- to 1,500/-
+                  </td>
+                </tr>
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Bigen Natural Black
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/- to 1,200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Just for Men Natural Black
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/- to 1,500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Revlon Natural Black
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/- to 1,200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hi Speedy Natural Black
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    700/- to 1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Beard
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    350/- to 500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Beard / Chest
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/- to 700/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Moustache
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    200/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Fair Polish -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Fair Polish
+            <p class="space-y-3 text-sm">Made from Herbal Ingredients to Enhance Natural Fairness</p>
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+                </tr>
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Neck
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Half Body Front & Back <br>
+                    <span class="text-xs text-gray-500">
+                      (Upper) 
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Half Body Front & Back <br>
+                    <span class="text-xs text-gray-500">
+                      (Lower) 
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face + Neck
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    700/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face + Neck + Hands
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face + Neck + Half Body Front & Back
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,600/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Feet
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    600/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Full Body
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,200/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Face Wash -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Face Wash
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face Wash <br>
+                    <span class="text-xs text-gray-500">(With Cleanser & Toner)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    200/-
+                  </td>
+                </tr>
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face Massage <br>
+                    <span class="text-xs text-gray-500">(With Herbal Cream)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face Scrub
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Black Head Removing <br>
+                    <span class="text-xs text-gray-500">(With Steam)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face Pack <br>
+                    <span class="text-xs text-gray-500">(This Can Be Done Every Week)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Scrub Wash -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Scrub Wash
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face Scrub
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+                </tr>
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hand Scrub
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Foot Scrub
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Half Body Scrub <br>
+                    <span class="text-xs text-gray-500">(Upper)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Half Body Scrub <br>
+                    <span class="text-xs text-gray-500">(Lower)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Body Cleansing Scrub <br>
+                    <span class="text-xs text-gray-500">(This Scrub removes Dead Skin Cells using Mineral Salts. It is made with a Blend of Fruits, Vitamins E & C (AHA), Mineral Salt and Pure Mineral Water. The scrub helps restore Moisture, Leaving the Skin Smoother, Firmer, and with a Healthy Glow)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,500/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Facials -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Facials
+            <p class="space-y-3 text-sm">Skin Toning Herbal Extract, Mineral & Vitamins are used in Facials to Glow your Skin</p>
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Royal’s Special Facial<br>
+                    <span class="text-xs text-gray-500">(Skin Freshing Facial for Oily & Normal Skin)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+                </tr>
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Pimple Treatment <br>
+                    <span class="text-xs text-gray-500">(Attention: no massage is Done to your Skin During Facial) 12 weeks
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Flower Facial<br>
+                    <span class="text-xs text-gray-500">(Skin Freshing Facial: For Normal & Sensitive Skin)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Pigmentation<br>
+                    <span class="text-xs text-gray-500">(Treatment for Removing Pigmentations) 12 weeks, Each Setting
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Vegetable Peel<br>
+                    <span class="text-xs text-gray-500">(12 weeks, Each Setting)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Galvanic Facial<br>
+                    <span class="text-xs text-gray-500">(Normal to Dry Skin Oily to Combination Skin)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Term Harb Wrinkle Life Treatment<br>
+                    <span class="text-xs text-gray-500">(For Againg, Sagging & Dry Skins, 12 weeks Each Setting)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Gold Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Whitening Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,800/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Pearl Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,900/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Diamond Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Bio-Xin Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Body Soap Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,800/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Vitamin-C Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    3,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Orange Cool Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    3,500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Chocolate Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    3,800/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Coffee Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    4,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Coffee Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    4,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Seed Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    4,500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hydra Facial
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    5,000/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Fashion Colors -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Fashion Colors
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Fashion Color<br>
+                    <span class="text-xs text-gray-500">
+                      (Full Hair Universal Color)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,200/- to 2,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Highlighting Full Hair<br>
+                    <span class="text-xs text-gray-500">
+                      (Single Color)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/- to 1,500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Highlighting Full Hair<br>
+                    <span class="text-xs text-gray-500">
+                      (Two or More Colors)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,500/- to 2,500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Temporary Color<br>
+                    <span class="text-xs text-gray-500">
+                      (One or Two Colors)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/- to 500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Henna Reard
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Henna for Colored Tint
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    700/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Color Apply Only <br>
+                    <span class="text-xs text-gray-500">
+                      (Servicing Charge + Shampoo)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    450/- to 800/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
       </div>
 
-      <!-- Hair Setting -->
-      <div>
-        <h3 class="text-2xl font-semibold mb-4 text-yellow-700">Hair Setting</h3>
-        <div class="overflow-x-auto rounded-lg shadow border border-gray-200">
-          <table class="w-full text-sm">
-            <thead>
-              <tr class="bg-yellow-100 text-gray-800">
-                <th class="border px-4 py-3 text-left">Service</th>
-                <th class="border px-4 py-3 text-left">Price</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-gray-200">
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Hair Setting (Mousse or Cream or Gel or Spray)</td><td class="px-4 py-3">200/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Hair Iron</td><td class="px-4 py-3">400/- & Above</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Hair Straightening (3 months)</td><td class="px-4 py-3">3,000/- & Above</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Hair Rebounding</td><td class="px-4 py-3">5,000/- & Above</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Perm (Half / Full)</td><td class="px-4 py-3">2,000/- & Above</td></tr>
-            </tbody>
-          </table>
+      <!-- RIGHT SIDE -->
+      <div class="space-y-10">
+
+        <!-- Fashion Piercing -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Fashion Piercing
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Ear Piercing<br>
+                    <span class="text-xs text-gray-500">
+                      (per Ear with Gun)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Eyebrow Piercing<br>
+                    <span class="text-xs text-gray-500">
+                      (per Piercing with Gun)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    600/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Service Charge Hand Piercing
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Eye Brow Piercing
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/- to 400/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Lips Piercing
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/- to 600/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Navel Piercing
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/- to 600/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
         </div>
+
+        <!-- Wax for Men -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Wax for Men
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Waxing Face / Ears
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    350/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Waxing Neck
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    250/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Waxing Hands
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Waxing Front / Back <br>
+                    <span class="text-xs text-gray-500">
+                      (Upper Body)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    600/- to 800/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Waxing Half Legs / Full Legs
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    700/- to 1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Waxing Half Body<br>
+                    <span class="text-xs text-gray-500">
+                      (Neck + Hands + Front & Back)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Waxing Full Body
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,200/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Hand & Foot Care -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Hand & Foot Care
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Manicure + Arms Massage<br>
+                    <span class="text-xs text-gray-500">(30 minutes)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Pedicure + Legs Massage<br>
+                    <span class="text-xs text-gray-500">(45 minutes)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Pedicure + Manicure
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Pedicure + Manicure for Children<br>
+                    <span class="text-xs text-gray-500">(Below 10 years old)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Manicure Delux Mome
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Pedicure Delux Mome
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Pedicure + Manicure Delux Mome
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,200/-
+                  </td>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Head Massage -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Head Massage
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Special Herbal Oil<br>
+                    <span class="text-xs text-gray-500">(without Pack)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Oil-vactica / Olive Oil<br>
+                    <span class="text-xs text-gray-500">(without Pack)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Tonic Massage<br>
+                    <span class="text-xs text-gray-500">(without Pack)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    350/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Without Oil<br>
+                    <span class="text-xs text-gray-500">(without Pack)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    With Pack
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Foot Massage -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Foot Massage
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Foot Massage<br>
+                    <span class="text-xs text-gray-500">(45 minutes)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    650/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Foot Massage<br>
+                    <span class="text-xs text-gray-500">(30 minutes includes Refreshing Massage with Spa +  Wax Menthol Eucalyptus Oil Camphor & other Essential oil to Soften your Skin)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Body Massage -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Body Massage
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Body Massage<br>
+                    <span class="text-xs text-gray-500">(20 minutes in Chair)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Back Massage<br>
+                    <span class="text-xs text-gray-500">(30 minutes)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    700/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Thai Massage<br>
+                    <span class="text-xs text-gray-500">(A Traditional Body Massage for 60 minutes)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,800/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Massage with Cream + Shower
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Massage with Olive Oil + Shower
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,100/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Massage with Baby Oil + Shower
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Massage with Aroma Oil + Shower
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,500/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Student Package - I -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Student Package - I
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Cut
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    250/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Pimple Treatment 12 Weeks<br>
+                    <span class="text-xs text-gray-500">(Attention: No Massage is Done to your Skin Due to the Treatment)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Manicure
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Total:<br><br>Discount:
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,500/-<br><br>200/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    After Discount:
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,300/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Student Package - II
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Stylish Hair Cut<br>
+                    <span class="text-xs text-gray-500">(Catalog / Fashion Cut + Designs)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Shave / Beard Trimming
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    150/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Predicure
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    500/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Galvanic Facial<br>
+                    <span class="text-xs text-gray-500">(Normal to Dry Skin Oily to Combination Skin)
+                    </span>
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,200/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Total:<br><br>Discount:
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,250/-<br><br>450/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    After Discount:
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,800/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Exclusive Package -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Exclusive Package
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Stylish Hair Cut
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Stylish Beard Trimming
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    200/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Fair Polish<br>
+                    <span class="text-xs text-gray-500">(Face & Neck)
+                    </span>
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hot Oil Massage with Steam
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    400/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Predicure + Manicure
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Whitening Facial
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,800/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Total:<br><br>Discount:
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    4,300/-<br><br>500/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    After Discount:
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    3,800/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Wedding Package -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Wedding Package
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Cut + Setting<br>
+                    <span class="text-xs text-gray-500">(Mousse / Cream / Gel / Spray + Shampoo Complementory)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    350/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Stylish Shave / Beard Trimming
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    200/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Fair Polish<br>
+                    <span class="text-xs text-gray-500">(Face + Neck + Head)
+                    </span>
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Spa
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face Threading
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    300/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Predicure + Manicure Delux Mome
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,200/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Diamond Facial
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,200/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Wedding Groom Makeover
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,500/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Total:<br><br>Discount:
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    7,500/-<br><br>1,300/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    After Discount:
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    6,200/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Groom Package -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Groom Package
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Cut
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    250/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Shave / Beard Trimming
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    150/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Eye Brow Threading
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    200/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Hair Black Shine
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Face Polish<br>
+                    <span class="text-xs text-gray-500">(Face + Neck + Head + Front & Back Upper Body)
+                    </span>
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,800/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Predicure + Manicure
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    800/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Vitamin-C Facial
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    3,000/-
+                  </td>
+
+                  <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Groom Makeover
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,000/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Total:<br><br>Discount:
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    9,000/-<br><br>1,350/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    After Discount:
+                    </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    7,650/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Make Over Art -->
+         <div>
+          <h3 class="text-xl font-semibold mb-4 text-yellow-700 border-l-4 border-yellow-600 pl-3">
+            Make Over Art
+          </h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border border-gray-200 rounded-lg overflow-hidden">
+      
+              <!-- Define an invisible divider for the price column -->
+               <colgroup>
+                <col>
+                <col class="min-w-[120px]">
+              </colgroup>
+
+              <!-- Header -->
+               <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                <tr>
+                  <th class="px-4 py-3">Services</th>
+                  <th class="px-4 py-3 text-right whitespace-nowrap">Price (BDT)</th>
+                </tr>
+              </thead>
+      
+              <!-- Body -->
+               <tbody class="divide-y">
+        
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Exclusive Make-Up<br>
+                    <span class="text-xs text-gray-500">(Basic base with Neck +  Eyes + Lips + Blush on)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,000/-
+                  </td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Wedding Makeover<br>
+                    <span class="text-xs text-gray-500">(Basic base with Face Wash + Neck + Eyes + Lips + Blush on)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    1,500/-
+                  </td>
+
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    Groom Makeover Art<br>
+                    <span class="text-xs text-gray-500">(Royal Groom's Make Up with Face Massage of Herbal Cream & Face + Eyes + Neck + Hands + Blush on)
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+                    2,000/-
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      
       </div>
 
-      <!-- Fair Polish -->
-      <div>
-        <h3 class="text-2xl font-semibold mb-4 text-yellow-700">Fair Polish</h3>
-        <p class="mb-4 text-gray-600">Made from Herbal Ingredients to Enhance Natural Fairness</p>
-        <div class="overflow-x-auto rounded-lg shadow border border-gray-200">
-          <table class="w-full text-sm">
-            <thead>
-              <tr class="bg-yellow-100 text-gray-800">
-                <th class="border px-4 py-3 text-left">Service</th>
-                <th class="border px-4 py-3 text-left">Price</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-gray-200">
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Face</td><td class="px-4 py-3">500/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Neck</td><td class="px-4 py-3">300/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Half Body Front & Back (Upper)</td><td class="px-4 py-3">1,000/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Half Body Front & Back (Lower)</td><td class="px-4 py-3">1,200/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Face + Neck</td><td class="px-4 py-3">700/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Face + Neck + Hands</td><td class="px-4 py-3">1,000/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Face + Neck + Half Body Front & Back</td><td class="px-4 py-3">1,600/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Feet</td><td class="px-4 py-3">600/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Full Body</td><td class="px-4 py-3">2,200/-</td></tr>
-            </tbody>
-          </table>
-        </div>
       </div>
 
-      <!-- Facial -->
-      <div>
-        <h3 class="text-2xl font-semibold mb-4 text-yellow-700">Facial</h3>
-        <p class="mb-4 text-gray-600">Skin Toning Herbal Extract, Minerals & Vitamins are used in Facials to Glow your Skin</p>
-        <div class="overflow-x-auto rounded-lg shadow border border-gray-200">
-          <table class="w-full text-sm">
-            <thead>
-              <tr class="bg-yellow-100 text-gray-800">
-                <th class="border px-4 py-3 text-left">Service</th>
-                <th class="border px-4 py-3 text-left">Price</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-gray-200">
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Royal’s Special (Skin Freshing Facial for Oily & Normal Skin)</td><td class="px-4 py-3">1,000/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Pimple Treatment (12 weeks)</td><td class="px-4 py-3">1,000/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Flower Facial (Normal & Sensitive Skin)</td><td class="px-4 py-3">1,000/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Pigmentation Treatment (Each Setting)</td><td class="px-4 py-3">1,000/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Vegetable Peel (Each Setting)</td><td class="px-4 py-3">1,200/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Galvanic Facial</td><td class="px-4 py-3">1,200/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Term Harb Wrinkle Lift Treatment (Each Setting)</td><td class="px-4 py-3">1,300/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Gold Facial</td><td class="px-4 py-3">1,500/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Whitening Facial</td><td class="px-4 py-3">1,800/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Pearl Facial</td><td class="px-4 py-3">1,900/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Diamond Facial</td><td class="px-4 py-3">2,200/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Bio-Xin Facial</td><td class="px-4 py-3">2,500/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Body Shop Facial</td><td class="px-4 py-3">2,800/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Vitamin-C Facial</td><td class="px-4 py-3">3,000/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Orange Cool Facial</td><td class="px-4 py-3">3,500/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Chocolate Facial</td><td class="px-4 py-3">3,800/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Coffee Facial</td><td class="px-4 py-3">4,000/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Seeds Facial</td><td class="px-4 py-3">4,500/-</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- Fashion Piercing -->
-      <div>
-        <h3 class="text-2xl font-semibold mb-4 text-yellow-700">Fashion Piercing</h3>
-        <div class="overflow-x-auto rounded-lg shadow border border-gray-200">
-          <table class="w-full text-sm">
-            <thead>
-              <tr class="bg-yellow-100 text-gray-800">
-                <th class="border px-4 py-3 text-left">Service</th>
-                <th class="border px-4 py-3 text-left">Price</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-gray-200">
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Ear Piercing (per Ear) with Gun</td><td class="px-4 py-3">500/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Eyebrow Piercing (per Piercing) with Gun</td><td class="px-4 py-3">600/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Service Charge Hand Piercing</td><td class="px-4 py-3">300/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Eye Brow</td><td class="px-4 py-3">300/- to 400/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Lips</td><td class="px-4 py-3">400/- to 600/-</td></tr>
-              <tr class="hover:bg-yellow-50"><td class="px-4 py-3">Navel</td><td class="px-4 py-3">500/- to 600/-</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
     </div>
-
-    <!-- Call to Book -->
-    <div class="text-center mt-12">
-      <a href="tel:+8801841550501" class="inline-block px-6 py-3 bg-yellow-600 text-white text-lg font-semibold rounded-lg shadow hover:bg-yellow-500 transition">
-        Call to Book
-      </a>
-    </div>
-  </div>
 </section>
 
   <!-- Contact -->
@@ -477,28 +2598,26 @@
         <div class="w-200 h-1 bg-yellow-600 mx-auto mt-3"></div>
         <p class="max-w-2xl mx-auto mt-6 text-gray-700 leading-relaxed">
           <strong>Royal’s – Hair & Skin Care Salon, Chittagong</strong><br> Experience expert haircuts, facials, premium hair treatments, and complete grooming services.<br><br> Visit our Salon or give us a Call — We’re here for you Every Day!<br>
-            <strong>Open Daily:</strong> 10:00 AM – 9:00 PM<br>
-            <strong>Call Us:</strong> +8801841-550501
+            <strong>Opening Time:</strong> Everyday at 10:00 AM – 9:00 PM<br><span class="text-gray-500">(Holiday hours may differ from regular operating times.)</span><br>
+            <strong>Contact Us:</strong> <a class="text-yellow-700 hover:underline" href="tel:+8801841550501">+8801841-550501</a>
           </p>
-
       </div>
 
       <div class="mt-10 grid lg:grid-cols-2 gap-8">
         <div class="bg-white rounded-2xl shadow p-8">
           <h3 class="text-xl font-semibold mb-6">Salon Information</h3>
           <div class="space-y-4 text-gray-700">
+            <p><strong>Opening Time:</strong> Everyday at 10:00 AM – 9:00 PM<br><span class="text-gray-500">(Holiday hours may differ from regular operating times.)</span></p>
             <p><strong>Phone:</strong> <a class="text-yellow-700 hover:underline" href="tel:+8801841550501">+8801841-550501</a></p>
-            <p><strong>Address:</strong> Forum Central (2nd Floor), Golpaharmor, Chittagong.</p>
-            <p><strong>Opening Time:</strong> Everyday — 10:00 AM to 9:00 PM</p>
-            <p><strong>Facebook:</strong> <a class="text-yellow-700 hover:underline" href="https://www.facebook.com/share/1BCLLu2G2g/" target="_blank" rel="noopener">facebook.com/royals-salon</a></p>
+            <p><strong>Address:</strong> 787/863, M. M. Ali Road, 2nd Floor, Forum Central, Golpahar Circle, Chittagong 4000, Bangladesh.</p>
           </div>
 
-          <div class="mt-6">
+          <div class="mt-4">
             <h4 class="font-semibold mb-3">Follow Us</h4>
             <div class="flex items-center gap-4">
               <a href="https://www.facebook.com/share/1BCLLu2G2g/" target="_blank" rel="noopener" aria-label="Facebook" class="social-link">
                 <!-- Simple FB icon -->
-                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                   <path d="M22 12.06C22 6.48 17.52 2 11.94 2S2 6.48 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.41c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.62.77-1.62 1.56v1.88h2.77l-.44 2.91h-2.33V22c4.78-.79 8.44-4.94 8.44-9.94Z"/>
                 </svg>
               </a>
@@ -509,8 +2628,13 @@
         <div class="bg-white rounded-2xl shadow overflow-hidden">
           <iframe
             title="Royal's Location Map"
-            src="https://www.google.com/maps?q=Forum%20Central,%20Golpaharmor,%20Chittagong&output=embed"
-            width="100%" height="360" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            src="https://www.google.com/maps?q=Royal's%20-%20Hair%20%26%20Skin%20Care%20Salon,%20Chittagong&output=embed"
+            width="100%"
+            height="360"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
       </div>
@@ -534,10 +2658,10 @@
         </ul>
       </div>
       <div>
-        <h4 class="font-semibold">Hours</h4>
-        <p class="text-gray-300 mt-3">Everyday: 10:00 AM – 9:00 PM</p>
+        <h4 class="font-semibold">Details</h4>
+        <p class="text-gray-300 mt-3">Opening time: Everyday at 10:00 AM – 9:00 PM<br><span class="text-gray-500">(Holiday hours may differ from regular operating times.)</span></p>
         <p class="text-gray-300 mt-1">Phone: <a href="tel:+8801841550501" class="hover:text-yellow-500">+8801841-550501</a></p>
-        <p class="text-gray-300 mt-1">Address: Forum Central (2nd Floor), Golpaharmor, Chittagong.</p>
+        <p class="text-gray-300 mt-1">Address: 787/863, M. M. Ali Road, 2nd Floor, Forum Central, Golpahar Circle, Chittagong 4000, Bangladesh.</p>
       </div>
     </div>
     <div class="text-center text-gray-400 mt-8 text-sm">© <span id="year"></span> Royal's Salon. All rights reserved.</div>
