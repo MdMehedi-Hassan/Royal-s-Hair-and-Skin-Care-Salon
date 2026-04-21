@@ -40,7 +40,6 @@ royals-salon/
 <img width="1920" height="818" alt="image" src="https://github.com/user-attachments/assets/2499eaae-c579-43de-80d6-1e6f110bfc1d" />
 <img width="1532" height="865" alt="image" src="https://github.com/user-attachments/assets/f0c6c471-a0f6-4819-89e2-fe3aa984cb56" />
 <img width="1731" height="842" alt="image" src="https://github.com/user-attachments/assets/aad8cf32-4229-4974-95a1-a2da1b20fbc0" />
-<img width="1731" height="844" alt="image" src="https://github.com/user-attachments/assets/de94a9b2-089e-4eaa-91ba-21bdaff4f45e" />
 <img width="1920" height="776" alt="image" src="https://github.com/user-attachments/assets/15779c40-afcd-4a40-875b-2d2d3351c179" />
 <img width="1919" height="565" alt="image" src="https://github.com/user-attachments/assets/dc181936-8b0b-4d55-a6cd-a748eb5f70d1" />
 <img width="1921" height="654" alt="image" src="https://github.com/user-attachments/assets/d9cdbec6-b7ac-4a77-b933-099b5d6f59b9" />
