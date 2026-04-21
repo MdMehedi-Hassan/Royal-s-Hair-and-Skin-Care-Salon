@@ -169,3 +169,26 @@ body {
     text-align: center;
   }
 }
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #0f0f0f; /* dark background */
+  border-radius: 0px;
+}
+
+/* Thumb (the moving part) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d4af37, #b8962e); /* gold gradient */
+  border-radius: 10px;
+  border: 2px solid #d4af37;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #e6c65c, #c9a63a);
+}
