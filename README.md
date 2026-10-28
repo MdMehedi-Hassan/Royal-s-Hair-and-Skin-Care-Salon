@@ -44,3 +44,6 @@ royals-salon/
 <img width="1919" height="565" alt="image" src="https://github.com/user-attachments/assets/dc181936-8b0b-4d55-a6cd-a748eb5f70d1" />
 <img width="1921" height="654" alt="image" src="https://github.com/user-attachments/assets/d9cdbec6-b7ac-4a77-b933-099b5d6f59b9" />
 <img width="1920" height="519" alt="image" src="https://github.com/user-attachments/assets/b0fc11c5-98de-4e25-88cc-141c888595f7" />
+
+## 📸 Web-Application Screenshots
+Visit the website: https://royals-salon.netlify.app/
